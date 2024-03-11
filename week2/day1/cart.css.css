@@ -1,0 +1,39 @@
+​​​​​​* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cart {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid azure;
+  border-radius: 10px;
+  max-width: 275px;
+  background: white;
+  padding: 10px;
+}
+#Learn-more {
+  background-color: mediumslateblue;
+  color: white;
+  border: 1px solid mediumslateblue;
+  cursor: pointer;
+  transition: 400ms;
+  width: 120px;
+  height: 30px;
+  border-radius: 5px;
+}
+#Learn-more:hover {
+  background-color: white;
+  color: mediumslateblue;
+}
+h3 {
+  color: grey;
+}
+#Feature{
+    border: none;
+  width: max-content;
+  background-color: rgba(123, 104, 238, 0.4);
+  color: mediumslateblue;
+  border-radius: 2px;
+}
